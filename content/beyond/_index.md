@@ -15,7 +15,7 @@ I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong jo
     <figcaption>At Nanto Bukan East Georgia Kendo Club</figcaption>
   </figure>
   <figure>
-    <img src="/images/Kendo_002.jpg" alt="Kendo practice">
+    <img src="/images/Kendo_002.JPG" alt="Kendo practice">
     <figcaption>At Costa Mesa Kendo Dojo</figcaption>
   </figure>
 </div>
@@ -26,19 +26,19 @@ I love watching movies in my spare time. I enjoy spending time at independent mo
 
 <div class="img-pair">
   <figure>
-    <img src="/images/Jet_Li.jpg" alt="Jet Li as guest speaker for Once Upon a Time in China">
+    <img src="/images/Jet_Li.JPG" alt="Jet Li as guest speaker for Once Upon a Time in China">
     <figcaption>Jet Li as guest speaker for Once Upon a Time in China.</figcaption>
   </figure>
   <figure>
-    <img src="/images/Bong_Fincher.jpg" alt="Q&A for Zodiac with Bong Joon-ho and David Fincher">
+    <img src="/images/Bong_Fincher.JPG" alt="Q&A for Zodiac with Bong Joon-ho and David Fincher">
     <figcaption>Q&A for Zodiac with Bong Joon-ho and David Fincher.</figcaption>
   </figure>
   <figure>
-    <img src="/images/Park_Lee.jpg" alt="Q&A for Joint Security Area with Park Chan-wook and Lee Byung-hun">
+    <img src="/images/Park_Lee.JPG" alt="Q&A for Joint Security Area with Park Chan-wook and Lee Byung-hun">
     <figcaption>Q&A for Joint Security Area with Park Chan-wook and Lee Byung-hun.</figcaption>
   </figure>
   <figure>
-    <img src="/images/zhizhi.jpg" alt="Q&A for Still Walking with Hirokazu Kore-eda">
+    <img src="/images/zhizhi.JPG" alt="Q&A for Still Walking with Hirokazu Kore-eda">
     <figcaption>Q&A for Still Walking with Hirokazu Kore-eda.</figcaption>
   </figure>
 </div>
