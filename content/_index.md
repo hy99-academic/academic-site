@@ -3,7 +3,7 @@ title: "About"
 ShowToc: false
 ---
 
-I am an incoming Assistant Professor of Science Education in the Department of Curriculum and Instruction at the University of Houston. My research investigates preservice and in-service science teachers' noticing, and power dynamics interact to shape the teaching practices in science learning spaces.
+I am an Assistant Professor of Science Education in the Department of Curriculum and Instruction at the University of Houston. My research investigates preservice and in-service science teachers' noticing, and power dynamics interact to shape the teaching practices in science learning spaces.
 
 I am currently accepting doctoral students. See the [Research](/research/) page for what I'm working on.
 
