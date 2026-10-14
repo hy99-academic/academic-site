@@ -1,3 +1,3 @@
 git add .
-git commit -m "update profile"
+git commit -m "update pub"
 git push

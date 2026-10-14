@@ -4,7 +4,7 @@ url: /publications/
 ---
 
 *For a complete and up-to-date list, visit my [Google Scholar profile](https://scholar.google.com/citations?user=eXY74_cAAAAJ).*
-### Peer-Reviewed Journal Articles
+## Peer-Reviewed Journal Articles
 
 
 **Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J. (2026). Examining youth authority in community interviews during the co-design of an environmental engineering curriculum. *International Society of the Learning Sciences*.
