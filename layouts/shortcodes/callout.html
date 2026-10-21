@@ -1,0 +1,5 @@
+{{- /* Usage: {{< callout title="Key questions" >}} markdown {{< /callout >}} */ -}}
+<div class="callout">
+  {{- with .Get "title" }}<p class="callout-title">{{ . }}</p>{{ end }}
+  {{ .Inner | markdownify }}
+</div>
