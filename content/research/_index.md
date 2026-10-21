@@ -34,10 +34,6 @@ As part of an NSF-funded project at UC Irvine, I worked with teachers, high scho
 
 - **Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J. *(accepted)*. Examining youth authority in community interviews during the co-design of an environmental engineering curriculum. *Proceedings of ICLS 2026.*
 
-## Looking Ahead
-
-Building on these lines of research, my next phase of work brings them into direct conversation by seeing *teacher noticing as an authority practice* — examining how what teachers notice (and don't notice) distributes epistemic authority, and how emerging technologies, including AI-supported classroom analytics, reshape this distribution in science learning environments.
-
 ## Prospective Ph.D. Students
 
 I am **actively recruiting** Ph.D. students for Fall 2027. See [Prospective Students](/join/) for who I'm looking for and how to get in touch.
