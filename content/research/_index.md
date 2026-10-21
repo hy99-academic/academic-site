@@ -3,7 +3,7 @@ title: "Research"
 url: /research/
 ---
 
-I study how science teachers notice and teach science and engineering practices, and how teachers, youth, and communities can design science learning around real-world problems like climate change. Across both lines of work, I am interested in how teachers learn: through looking closely at classroom practice, and through designing learning experiences together.
+I study how science teachers notice and teach science and engineering practices, and how teachers, youth, and communities can design science learning around real-world problems like hurricanes. Across both lines of work, I am interested in how teachers learn: through looking closely at classroom practice, and through designing learning experiences together.
 
 ## Science Teacher Noticing of Science and Engineering Practices
 
@@ -27,17 +27,17 @@ I am also interested in how professional development, including video-based appr
 
 ## Co-Designing Science and Engineering Learning for Real-World Problems
 
-I partner with teachers, youth, and community members to design science and engineering learning around real-world problems such as climate change and local environmental issues. I see co-design both as a way to create learning experiences rooted in students' places and communities, and as a powerful setting for teacher learning.
+I partner with teachers, youth, and community members to design science and engineering learning around real-world problems such as hurricanes and local environmental issues. I see co-design both as a way to create learning experiences rooted in students' places and communities, and as a powerful setting for teacher learning.
 
 This work includes:
 
 - An NSF-funded project at UC Irvine, where teachers, high school students, and community members co-designed an environmental engineering curriculum, and students' community interviews shaped the curriculum we built together
-- A research-practice partnership in which elementary teachers co-designed place-based climate change curriculum
-- A systematic review of how youth storytelling and digital tools are used in climate change education
+- A research-practice partnership in which elementary teachers co-designed place-based science curriculum
+- A systematic review of youth storytelling and digital tools in environmental education
 
 **Representative work:**
 
-- **Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J. *(accepted)*. Examining youth authority in community interviews during the co-design of an environmental engineering curriculum. *Proceedings of ICLS 2026.*
+- **Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J. (2026). Examining youth authority in community member interviews during the co-design of an environmental engineering curriculum. In B. K. Litts, D. DeLiema, C. Lee, S. Krist, A. Mawasi, L. Martin, & K. Kumpulainen (Eds.), *Proceedings of the 20th International Conference of the Learning Sciences - ICLS 2026* (pp. 454–463). International Society of the Learning Sciences.
 - Adah Miller, E., **Huang, Y.**, Tran, H., & Lahiri, S. (2026). From and for the sake of place: Elementary teachers co-designing place-based education climate change curriculum in research-practice partnership. *Environmental Education Research.*
 - Sezen-Barrie, A., & **Huang, Y.** (2026). Youth storytelling in climate change education: A systematic review of research designs, pedagogical scaffolding, and digital tools (2014–2024). *Environmental Education Research*, 1–37.
 

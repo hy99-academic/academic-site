@@ -3,17 +3,13 @@ title: "About"
 ShowToc: false
 ---
 
-I am an Assistant Professor of Science Education in the Department of Curriculum and Instruction at the University of Houston. I study how science teachers notice and teach science and engineering practices, and how teachers, youth, and communities can design science learning around real-world problems like climate change.
+I am an Assistant Professor of Science Education in the Department of Curriculum and Instruction at the University of Houston. I study how science teachers notice and teach science and engineering practices, and how teachers, youth, and communities can design science learning around real-world problems like hurricanes.
 
 I am recruiting Ph.D. students for Fall 2027. If you're interested, see [Prospective Students](/join/).
 
 ## Research at a Glance
 
 {{< research-cards >}}
-
-## News
-
-{{< news >}}
 
 ## Education
 

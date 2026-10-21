@@ -1,6 +1,6 @@
 {{- /*
   Publications list: data/publications.yaml (by hand) + data/publications_auto.json (from ORCID).
-  Use as {{% publications %}} so the section headings show up in the Contents sidebar.
+  Use as {{% publications %}} (the output is Markdown).
 */ -}}
 {{- $manual := site.Data.publications.manual | default slice -}}
 {{- $hide := slice -}}
@@ -28,32 +28,23 @@
   {{- $items = $items | append (dict "p" $p "key" (printf "%04d-%04d" $y (sub 9999 $i))) -}}
 {{- end -}}
 {{- $items = sort $items "key" "desc" -}}
-{{- $sections := slice
-  (dict "type" "journal" "title" "Peer-Reviewed Journal Articles")
-  (dict "type" "conference" "title" "Conference Proceedings")
-  (dict "type" "book" "title" "Books & Book Chapters")
--}}
-{{- range $sections -}}
-  {{- $type := .type -}}
-  {{- $list := where $items "p.type" $type -}}
-  {{- if $list }}
-
-## {{ .title }}
-{{ range $list -}}
+{{- range $items -}}
   {{- $p := .p -}}
   {{- $title := $p.title -}}
   {{- if not (findRE `[.?!]$` $title) }}{{ $title = printf "%s." $title }}{{ end -}}
   {{- $s := "" -}}
   {{- with $p.authors }}{{ $s = printf "%s " . }}{{ end -}}
   {{- $s = printf "%s(%v). %s" $s $p.year $title -}}
-  {{- with $p.venue }}{{ $s = printf "%s *%s*" $s . }}{{ end -}}
-  {{- with $p.volume }}{{ $s = printf "%s, *%s*" $s . }}{{ end -}}
-  {{- with $p.issue }}{{ $s = printf "%s(%s)" $s . }}{{ end -}}
-  {{- with $p.pages }}{{ $s = printf "%s, %s" $s . }}{{ end -}}
-  {{- if $p.venue }}{{ $s = printf "%s." $s }}{{ end -}}
+  {{- if $p.source -}}
+    {{- $s = printf "%s %s" $s $p.source -}}
+  {{- else -}}
+    {{- with $p.venue }}{{ $s = printf "%s *%s*" $s . }}{{ end -}}
+    {{- with $p.volume }}{{ $s = printf "%s, *%s*" $s . }}{{ end -}}
+    {{- with $p.issue }}{{ $s = printf "%s(%s)" $s . }}{{ end -}}
+    {{- with $p.pages }}{{ $s = printf "%s, %s" $s . }}{{ end -}}
+    {{- if $p.venue }}{{ $s = printf "%s." $s }}{{ end -}}
+  {{- end -}}
   {{- with $p.doi }}{{ $s = printf "%s [https://doi.org/%s](https://doi.org/%s)" $s . . }}{{ end -}}
   {{- with $p.note }}{{ $s = printf "%s %s" $s . }}{{ end }}
 {{ $s }}
 {{ end -}}
-  {{- end -}}
-{{- end -}}

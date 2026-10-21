@@ -9,16 +9,18 @@
 # A paper listed here always wins over the ORCID version (matched by DOI or title),
 # so you can also use this list to fix how an ORCID paper looks.
 #
-# type: journal, conference, or book
+# type: journal, conference, or book (used only to skip non-paper items from ORCID)
 # year: a number like 2026, or text like "in press"
 # authors: put **Huang, Y.** in double stars to make your name bold
+# source: optional. Write the part after the title yourself (for proceedings,
+#         book chapters, etc.) instead of using venue/volume/issue/pages.
 
 manual:
   - type: conference
     authors: "**Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J."
     year: 2026
-    title: "Examining youth authority in community interviews during the co-design of an environmental engineering curriculum"
-    venue: "International Society of the Learning Sciences"
+    title: "Examining youth authority in community member interviews during the co-design of an environmental engineering curriculum"
+    source: "In B. K. Litts, D. DeLiema, C. Lee, S. Krist, A. Mawasi, L. Martin, & K. Kumpulainen (Eds.), *Proceedings of the 20th International Conference of the Learning Sciences - ICLS 2026* (pp. 454–463). International Society of the Learning Sciences."
 
   - type: journal
     authors: "Adah Miller, E., **Huang, Y.**, Tran, H., & Lahiri, S."

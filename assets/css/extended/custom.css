@@ -559,39 +559,6 @@ header.header { display: none; }
     color: var(--accent-blue);
 }
 
-/* ============ 13. News ============ */
-
-.post-content ul.news-list {
-    padding-left: 0;
-    margin: 1rem 0 1.5rem;
-}
-
-.post-content ul.news-list li {
-    display: grid;
-    grid-template-columns: 4.5rem 1fr;
-    gap: 0.9rem;
-    padding: 0.7rem 0;
-    border-bottom: 1px dashed var(--border);
-}
-
-.post-content ul.news-list li:last-child { border-bottom: none; }
-
-.post-content ul.news-list li::before { content: none; }
-
-.news-date {
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--accent-blue);
-    background: var(--tertiary);
-    border-radius: 4px;
-    padding: 2px 6px;
-    text-align: center;
-    align-self: start;
-    margin-top: 2px;
-}
-
-.news-text { font-size: 0.95rem; }
-
 /* ============ 14. Call-to-action Button ============ */
 
 .cta-row { margin: 1.8rem 0 0.5rem; }
