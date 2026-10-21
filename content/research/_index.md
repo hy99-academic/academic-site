@@ -27,7 +27,7 @@ I am also interested in how professional development, including video-based appr
       <span class="project-tag">NSF-funded · UGA</span>
       <span class="project-pi">PI: Julie Luft</span>
     </div>
-    <p>Examined what secondary science teachers notice in classroom videos, and how they interpret science and engineering practices.</p>
+    <p>Examined what in-service science teachers notice in classroom videos, and how they interpret science and engineering practices.</p>
   </div>
 </div>
 
