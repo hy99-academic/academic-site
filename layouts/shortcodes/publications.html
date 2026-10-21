@@ -1,0 +1,59 @@
+{{- /*
+  Publications list: data/publications.yaml (by hand) + data/publications_auto.json (from ORCID).
+  Use as {{% publications %}} so the section headings show up in the Contents sidebar.
+*/ -}}
+{{- $manual := site.Data.publications.manual | default slice -}}
+{{- $hide := slice -}}
+{{- range site.Data.publications.hide | default slice }}{{ $hide = $hide | append (lower (string .)) }}{{ end -}}
+{{- $norm := slice -}}
+{{- $dois := slice -}}
+{{- range $manual -}}
+  {{- $norm = $norm | append (substr (replaceRE "[^a-z0-9]" "" (lower .title)) 0 60) -}}
+  {{- with .doi }}{{ $dois = $dois | append (lower .) }}{{ end -}}
+{{- end -}}
+{{- $all := slice -}}
+{{- range $manual }}{{ $all = $all | append . }}{{ end -}}
+{{- range site.Data.publications_auto | default slice -}}
+  {{- $t := substr (replaceRE "[^a-z0-9]" "" (lower .title)) 0 60 -}}
+  {{- $d := lower (.doi | default "") -}}
+  {{- $dup := or (in $norm $t) (and $d (in $dois $d)) -}}
+  {{- $hidden := or (in $hide (lower .title)) (and $d (in $hide $d)) -}}
+  {{- if not (or $dup $hidden) }}{{ $all = $all | append . }}{{ end -}}
+{{- end -}}
+{{- /* Sort newest first; "in press" etc. go on top; keep file order within a year. */ -}}
+{{- $items := slice -}}
+{{- range $i, $p := $all -}}
+  {{- $y := 9999 -}}
+  {{- if findRE `^[0-9]+$` (string $p.year) }}{{ $y = int (string $p.year) }}{{ end -}}
+  {{- $items = $items | append (dict "p" $p "key" (printf "%04d-%04d" $y (sub 9999 $i))) -}}
+{{- end -}}
+{{- $items = sort $items "key" "desc" -}}
+{{- $sections := slice
+  (dict "type" "journal" "title" "Peer-Reviewed Journal Articles")
+  (dict "type" "conference" "title" "Conference Proceedings")
+  (dict "type" "book" "title" "Books & Book Chapters")
+-}}
+{{- range $sections -}}
+  {{- $type := .type -}}
+  {{- $list := where $items "p.type" $type -}}
+  {{- if $list }}
+
+## {{ .title }}
+{{ range $list -}}
+  {{- $p := .p -}}
+  {{- $title := $p.title -}}
+  {{- if not (findRE `[.?!]$` $title) }}{{ $title = printf "%s." $title }}{{ end -}}
+  {{- $s := "" -}}
+  {{- with $p.authors }}{{ $s = printf "%s " . }}{{ end -}}
+  {{- $s = printf "%s(%v). %s" $s $p.year $title -}}
+  {{- with $p.venue }}{{ $s = printf "%s *%s*" $s . }}{{ end -}}
+  {{- with $p.volume }}{{ $s = printf "%s, *%s*" $s . }}{{ end -}}
+  {{- with $p.issue }}{{ $s = printf "%s(%s)" $s . }}{{ end -}}
+  {{- with $p.pages }}{{ $s = printf "%s, %s" $s . }}{{ end -}}
+  {{- if $p.venue }}{{ $s = printf "%s." $s }}{{ end -}}
+  {{- with $p.doi }}{{ $s = printf "%s [https://doi.org/%s](https://doi.org/%s)" $s . . }}{{ end -}}
+  {{- with $p.note }}{{ $s = printf "%s %s" $s . }}{{ end }}
+{{ $s }}
+{{ end -}}
+  {{- end -}}
+{{- end -}}
