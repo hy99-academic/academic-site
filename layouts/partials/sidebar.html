@@ -27,8 +27,8 @@
     {{- $current := $.RelPermalink | absLangURL -}}
     <li>
         <a href="{{ .URL | absLangURL }}"
-           {{- if eq $url $current }} class="active"{{ end -}}>
-            {{ .Name }}
+           class="{{ if eq $url $current }}active{{ end }}{{ if .Params.highlight }} nav-highlight{{ end }}">
+            {{ .Name }}{{ if .Params.highlight }}<span class="nav-dot" aria-hidden="true"></span>{{ end }}
         </a>
     </li>
     {{- end -}}

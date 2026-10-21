@@ -450,3 +450,185 @@ header.header { display: none; }
     object-fit: cover;
     object-position: center;
 }
+/* ============ 11. Recruiting Banner (homepage) ============ */
+
+.recruit-banner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.9rem;
+    margin: 0 0 2rem;
+    padding: 0.85rem 1.1rem;
+    background: var(--accent-yellow-soft);
+    border: 1px solid var(--accent-yellow);
+    border-left: 4px solid var(--accent-yellow);
+    border-radius: 6px;
+    color: var(--primary);
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.recruit-banner:hover {
+    color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(13, 37, 80, 0.10);
+}
+
+.recruit-badge {
+    background: var(--accent-yellow);
+    color: #0d2550;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.recruit-text { font-weight: 600; font-size: 0.98rem; }
+
+.recruit-link {
+    margin-left: auto;
+    color: var(--accent-blue);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* ============ 12. Research Cards ============ */
+
+.research-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin: 1.2rem 0 1.6rem;
+}
+
+.post-content a.research-card,
+.research-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    padding: 1.2rem 1.1rem;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent-blue);
+    border-radius: 6px;
+    color: var(--content);
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.post-content a.research-card:hover {
+    color: var(--content);
+    transform: translateY(-2px);
+    border-top-color: var(--accent-yellow);
+    box-shadow: 0 8px 22px rgba(13, 37, 80, 0.10);
+}
+
+.research-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--tertiary);
+    color: var(--accent-blue);
+}
+
+.research-card-icon svg { width: 18px; height: 18px; }
+
+.research-card-title {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1rem;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+}
+
+.research-card-summary {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--secondary);
+    flex-grow: 1;
+}
+
+.research-card-more {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+}
+
+/* ============ 13. News ============ */
+
+.post-content ul.news-list {
+    padding-left: 0;
+    margin: 1rem 0 1.5rem;
+}
+
+.post-content ul.news-list li {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 0.9rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px dashed var(--border);
+}
+
+.post-content ul.news-list li:last-child { border-bottom: none; }
+
+.post-content ul.news-list li::before { content: none; }
+
+.news-date {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+    background: var(--tertiary);
+    border-radius: 4px;
+    padding: 2px 6px;
+    text-align: center;
+    align-self: start;
+    margin-top: 2px;
+}
+
+.news-text { font-size: 0.95rem; }
+
+/* ============ 14. Call-to-action Button ============ */
+
+.cta-row { margin: 1.8rem 0 0.5rem; }
+
+.post-content a.cta-button {
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    background: var(--accent-blue);
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.post-content a.cta-button:hover {
+    background: var(--primary);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.dark .post-content a.cta-button:hover { color: #0d2550; }
+
+/* ============ 15. Sidebar: highlighted menu item ============ */
+
+.sidebar-nav a.nav-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+.nav-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-yellow);
+    box-shadow: 0 0 0 3px var(--accent-yellow-soft);
+}

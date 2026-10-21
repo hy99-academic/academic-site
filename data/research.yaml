@@ -1,0 +1,18 @@
+# Research cards shown on the homepage and the Prospective Students page.
+# "icon" can be: eye, people, spark
+# "link" points to a section on the Research page.
+
+- title: "Science Teacher Noticing"
+  icon: eye
+  summary: "What do science teachers pay attention to in class, how do they make sense of it, and whose ideas get taken seriously as a result?"
+  link: "/research/#science-teacher-noticing-of-reform-based-instructional-practices"
+
+- title: "Authority in Co-Design"
+  icon: people
+  summary: "Partnering with teachers, youth, and communities to co-design science learning, and studying who gets recognized as a knowledge contributor along the way."
+  link: "/research/#authority-in-science-learning-environments"
+
+- title: "Looking Ahead: Noticing & AI"
+  icon: spark
+  summary: "How what teachers notice distributes authority in the classroom, and how AI-supported classroom analytics may reshape it."
+  link: "/research/#looking-ahead"

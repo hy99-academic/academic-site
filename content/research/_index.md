@@ -36,12 +36,4 @@ As part of an NSF-funded project at UC Irvine, I examine how high school student
 
 ## Prospective Ph.D. Students
 
-I am **actively recruiting** Ph.D. students for Fall 2027. I look for students who:
-
-- have prior academic training in STEM fields
-- are proficient in English
-- are curious about science teacher learning
-- bring lived or professional experience in K–12 science classrooms or community settings
-
-
-If your interests resonate, email me a short note about what draws you to this work, along with a CV. Please apply to UH's [Curriculum & Instruction Ph.D. program](https://www.uh.edu/education/departments/cuin/).
+I am **actively recruiting** Ph.D. students for Fall 2027. See [Prospective Students](/join/) for who I'm looking for and how to get in touch.

@@ -1,0 +1,19 @@
+# News shown on the homepage, newest first.
+# To add an item, copy one block, paste it at the TOP, and edit it.
+# "date" can be a year ("2026") or a month ("Sep 2026").
+# "text" supports Markdown, e.g. **bold**, *italic*, [link text](https://...).
+
+- date: "2026"
+  text: "I am recruiting Ph.D. students for Fall 2027. [Learn more →](/join/)"
+
+- date: "2026"
+  text: "Joined the **University of Houston** as Assistant Professor of Science Education."
+
+- date: "2026"
+  text: "Paper on youth authority in community interviews during curriculum co-design accepted at **ICLS 2026**."
+
+- date: "2026"
+  text: "Two articles in *Environmental Education Research*: place-based climate change curriculum co-design, and a systematic review of youth storytelling in climate change education."
+
+- date: "2025"
+  text: "Article on secondary science teachers' noticing of science and engineering practices published in the *International Journal of Science and Mathematics Education*. [Read it](https://doi.org/10.1007/s10763-025-10548-9)"
