@@ -599,3 +599,82 @@ header.header { display: none; }
     background: var(--accent-yellow);
     box-shadow: 0 0 0 3px var(--accent-yellow-soft);
 }
+
+/* ============ 16. Beyond: chips, photo cards, lightbox ============ */
+
+.post-content p.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: -0.2rem 0 1rem;
+}
+
+.chips span {
+    background: var(--tertiary);
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.img-pair figure {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.img-pair figure:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(13, 37, 80, 0.12);
+}
+
+.img-pair figure img,
+.post-content .img-pair img {
+    height: 240px;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: zoom-in;
+    transition: transform 0.4s ease;
+}
+
+.img-pair figure:hover img { transform: scale(1.04); }
+
+.img-pair figcaption {
+    margin: 0;
+    padding: 0.7rem 0.9rem 0.8rem;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.45;
+}
+
+.lightbox {
+    border: none;
+    padding: 0;
+    background: transparent;
+    max-width: 92vw;
+    max-height: 92vh;
+    cursor: zoom-out;
+}
+
+.lightbox::backdrop { background: rgba(8, 14, 30, 0.85); }
+
+.lightbox img {
+    display: block;
+    max-width: 92vw;
+    max-height: 82vh;
+    border-radius: 6px;
+}
+
+.lightbox-caption {
+    color: #e8edf6;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0.7rem 0 0;
+}
+
+.lightbox:focus, .lightbox:focus-visible { outline: none; }
+
+.post-content .img-pair img { object-position: center 30%; }

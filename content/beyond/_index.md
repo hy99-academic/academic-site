@@ -3,9 +3,11 @@ title: "Beyond"
 url: /beyond/
 ---
 
-Things I enjoy outside of work.
+Things I enjoy outside of work. *Click any photo to see it larger.*
 
 ## Kendo
+
+<p class="chips"><span>🥋 Practicing since 2024</span><span>📍 Georgia → California</span></p>
 
 I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong journey.
 
@@ -20,7 +22,9 @@ I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong jo
   </figure>
 </div>
 
-## Movie
+## Movies
+
+<p class="chips"><span>🎬 Independent theaters</span><span>🎟️ Film festivals</span><span>🎤 Director Q&amp;As</span></p>
 
 I love watching movies in my spare time. I enjoy spending time at independent movie theaters and attending film festivals.
 

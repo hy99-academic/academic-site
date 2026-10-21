@@ -35,5 +35,9 @@
     © {{ now.Year }} {{ .Site.Params.author | default site.Title }}
 </footer>
 
+{{- if in .RawContent "img-pair" }}
+{{ partial "lightbox.html" . }}
+{{- end }}
+
 </body>
 </html>

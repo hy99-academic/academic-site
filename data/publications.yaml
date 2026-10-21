@@ -12,6 +12,8 @@
 # type: journal, conference, or book (used only to skip non-paper items from ORCID)
 # year: a number like 2026, or text like "in press"
 # authors: put **Huang, Y.** in double stars to make your name bold
+# doi: e.g. "10.1080/13504622.2026.1234567" (shown as a clickable link)
+# url: optional link for papers without a DOI (e.g. the ISLS repository page)
 # source: optional. Write the part after the title yourself (for proceedings,
 #         book chapters, etc.) instead of using venue/volume/issue/pages.
 
