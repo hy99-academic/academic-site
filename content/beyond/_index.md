@@ -7,15 +7,11 @@ Things I enjoy outside of work. *Click any photo to see it larger.*
 
 ## Kendo
 
-<p class="chips"><span>🥋 Practicing since 2024</span><span>📍 Georgia → California → Texas</span><span>🐾 Supporting student kendo at UH</span></p>
+<p class="chips"><span>🥋 Practicing since 2024</span><span>📍 Georgia → California → Texas</span><span>🐾 Staff supervisor for Cougar Kendo</span></p>
 
 I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong journey. I now practice in Houston and also support student kendo at the University of Houston.
 
-<div class="img-pair">
-  <figure class="wide">
-    <img src="/images/Kendo_003.jpg" alt="Kendo group photo in Houston">
-    <figcaption>Practicing in Houston</figcaption>
-  </figure>
+<div class="img-pair three">
   <figure>
     <img src="/images/Kendo_001.jpg" alt="Kendo practice">
     <figcaption>At Nanto Bukan East Georgia Kendo Club</figcaption>
@@ -23,6 +19,10 @@ I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong jo
   <figure>
     <img src="/images/Kendo_002.JPG" alt="Kendo practice">
     <figcaption>At Costa Mesa Kendo Dojo</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/Kendo_003.jpg" alt="Group photo at Houston Kendo Kyokai">
+    <figcaption>At Houston Kendo Kyokai</figcaption>
   </figure>
 </div>
 

@@ -679,9 +679,10 @@ header.header { display: none; }
 
 .post-content .img-pair img { object-position: center 30%; }
 
-.img-pair figure.wide { grid-column: 1 / -1; }
-.post-content .img-pair figure.wide img { height: 340px; object-position: center 55%; }
+.img-pair.three { grid-template-columns: repeat(3, 1fr); }
+.post-content .img-pair.three img { height: 190px; }
 
 @media (max-width: 600px) {
-    .post-content .img-pair figure.wide img { height: 220px; }
+    .img-pair.three { grid-template-columns: 1fr; }
+    .post-content .img-pair.three img { height: 240px; }
 }
