@@ -18,7 +18,7 @@ MY_GIVEN_INITIAL = "Y"
 
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "publications_auto.json"
 
-# ORCID work type -> section on the Publications page. Other types are skipped.
+# ORCID work types to include (others, like talks, are skipped). The label is kept as "type".
 TYPES = {
     "journal-article": "journal",
     "conference-paper": "conference",

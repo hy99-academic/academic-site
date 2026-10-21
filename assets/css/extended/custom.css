@@ -923,3 +923,35 @@ header.header { display: none; }
     font-size: 0.9rem;
     line-height: 1.55;
 }
+
+/* ============ 18. All Publications (collapsible) ============ */
+
+.pub-details {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0 1.2rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.pub-details summary {
+    cursor: pointer;
+    padding: 0.85rem 0;
+    font-weight: 600;
+    color: var(--accent-blue);
+    list-style: none;
+}
+
+.pub-details summary::-webkit-details-marker { display: none; }
+
+.pub-details summary::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.15s ease;
+}
+
+.pub-details[open] summary::before { transform: rotate(90deg); }
+
+.pub-details[open] summary { border-bottom: 1px dashed var(--border); margin-bottom: 1rem; }
+
+.pub-details p { font-size: 0.95rem; }

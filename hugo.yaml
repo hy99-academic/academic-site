@@ -57,9 +57,6 @@ menu:
     - name: Research
       url: /research/
       weight: 2
-    - name: Publications
-      url: /publications/
-      weight: 3
     - name: Prospective Students
       url: /join/
       weight: 4

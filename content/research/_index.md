@@ -1,6 +1,7 @@
 ---
 title: "Research"
 url: /research/
+aliases: ["/publications/"]
 ---
 
 I study how science teachers notice and teach science and engineering practices, and how teachers, youth, and communities can design science learning around real-world problems like hurricanes. Across both lines of work, I am interested in how teachers learn: through looking closely at classroom practice, and through designing learning experiences together.
@@ -61,6 +62,17 @@ I partner with teachers, youth, and community members to design science and engi
 </div>
 
 {{< papers "10.22318/icls2026.330057" "10.1080/13504622.2026.2729679" "10.1080/13504622.2026.2671436" >}}
+
+## All Publications
+
+*This list updates automatically from my [ORCID profile](https://orcid.org/0000-0003-3356-2512). See also my [Google Scholar profile](https://scholar.google.com/citations?user=eXY74_cAAAAJ).*
+
+<details class="pub-details">
+<summary>Show full list</summary>
+
+{{% publications %}}
+
+</details>
 
 ## Prospective Ph.D. Students
 

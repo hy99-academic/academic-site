@@ -11,7 +11,7 @@ If you care about how science teachers learn, and about science and engineering 
 
 {{< research-cards >}}
 
-More details are on the [Research](/research/) page, and recent papers are on the [Publications](/publications/) page.
+More details and all of my papers are on the [Research](/research/) page.
 
 ## Who I'm Looking For
 
