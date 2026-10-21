@@ -7,11 +7,15 @@ Things I enjoy outside of work. *Click any photo to see it larger.*
 
 ## Kendo
 
-<p class="chips"><span>🥋 Practicing since 2024</span><span>📍 Georgia → California</span></p>
+<p class="chips"><span>🥋 Practicing since 2024</span><span>📍 Georgia → California → Texas</span><span>🐾 Staff supervisor, Cougar Kendo</span></p>
 
-I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong journey.
+I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong journey. I now practice with Houston Kendo Kyokai and serve as the staff supervisor for Cougar Kendo at the University of Houston.
 
 <div class="img-pair">
+  <figure class="wide">
+    <img src="/images/Kendo_003.jpg" alt="Group photo at Houston Kendo Kyokai">
+    <figcaption>At Houston Kendo Kyokai</figcaption>
+  </figure>
   <figure>
     <img src="/images/Kendo_001.jpg" alt="Kendo practice">
     <figcaption>At Nanto Bukan East Georgia Kendo Club</figcaption>
@@ -22,11 +26,11 @@ I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong jo
   </figure>
 </div>
 
-## Movies
+## Films
 
 <p class="chips"><span>🎬 Independent theaters</span><span>🎟️ Film festivals</span><span>🎤 Director Q&amp;As</span></p>
 
-I love watching movies in my spare time. I enjoy spending time at independent movie theaters and attending film festivals.
+I love watching films in my spare time. I enjoy spending time at independent movie theaters and attending film festivals.
 
 <div class="img-pair">
   <figure>

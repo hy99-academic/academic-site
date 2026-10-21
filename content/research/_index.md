@@ -37,9 +37,9 @@ This work includes:
 
 **Representative work:**
 
-- **Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J. (2026). Examining youth authority in community member interviews during the co-design of an environmental engineering curriculum. In B. K. Litts, D. DeLiema, C. Lee, S. Krist, A. Mawasi, L. Martin, & K. Kumpulainen (Eds.), *Proceedings of the 20th International Conference of the Learning Sciences - ICLS 2026* (pp. 454–463). International Society of the Learning Sciences.
-- Adah Miller, E., **Huang, Y.**, Tran, H., & Lahiri, S. (2026). From and for the sake of place: Elementary teachers co-designing place-based education climate change curriculum in research-practice partnership. *Environmental Education Research.*
-- Sezen-Barrie, A., & **Huang, Y.** (2026). Youth storytelling in climate change education: A systematic review of research designs, pedagogical scaffolding, and digital tools (2014–2024). *Environmental Education Research*, 1–37.
+- **Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J. (2026). Examining youth authority in community member interviews during the co-design of an environmental engineering curriculum. In B. K. Litts, D. DeLiema, C. Lee, S. Krist, A. Mawasi, L. Martin, & K. Kumpulainen (Eds.), *Proceedings of the 20th International Conference of the Learning Sciences - ICLS 2026* (pp. 454–463). International Society of the Learning Sciences. https://doi.org/10.22318/icls2026.330057
+- Adah Miller, E., **Huang, Y.**, Tran, H., & Lahiri, S. (2026). From and for the sake of place: Elementary teachers co-designing place-based education climate change curriculum in research-practice partnership. *Environmental Education Research.* https://doi.org/10.1080/13504622.2026.2729679
+- Sezen-Barrie, A., & **Huang, Y.** (2026). Youth storytelling in climate change education: A systematic review of research designs, pedagogical scaffolding, and digital tools (2014–2024). *Environmental Education Research*, 1–37. https://doi.org/10.1080/13504622.2026.2671436
 
 ## Prospective Ph.D. Students
 

@@ -678,3 +678,10 @@ header.header { display: none; }
 .lightbox:focus, .lightbox:focus-visible { outline: none; }
 
 .post-content .img-pair img { object-position: center 30%; }
+
+.img-pair figure.wide { grid-column: 1 / -1; }
+.post-content .img-pair figure.wide img { height: 340px; object-position: center 55%; }
+
+@media (max-width: 600px) {
+    .post-content .img-pair figure.wide img { height: 220px; }
+}
