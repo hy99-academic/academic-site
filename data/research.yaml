@@ -2,17 +2,12 @@
 # "icon" can be: eye, people, spark, growth, gear
 # "link" points to a section on the Research page.
 
-- title: "Science Teacher Noticing"
+- title: "Teacher Noticing of Science & Engineering Practices"
   icon: eye
-  summary: "What do science teachers pay attention to in class, and how do they make sense of what students are doing and saying?"
-  link: "/research/#science-teacher-noticing"
+  summary: "What do science teachers notice when students argue from evidence, build models, or design solutions, and how does that noticing shape their teaching?"
+  link: "/research/#science-teacher-noticing-of-science-and-engineering-practices"
 
-- title: "Teacher Professional Development"
-  icon: growth
-  summary: "How can professional development, including the use of classroom video, help science teachers learn to notice and build on students' thinking?"
-  link: "/research/#science-teacher-professional-development"
-
-- title: "Engineering Practices"
-  icon: gear
-  summary: "How do science teachers notice, interpret, and teach engineering practices, from NGSS classrooms to co-designed engineering curricula?"
-  link: "/research/#engineering-practices-in-science-classrooms"
+- title: "Co-Designing Science & Engineering Learning"
+  icon: people
+  summary: "Working with teachers, youth, and communities to design science and engineering learning around real-world problems like climate change."
+  link: "/research/#co-designing-science-and-engineering-learning-for-real-world-problems"

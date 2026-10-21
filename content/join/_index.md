@@ -5,7 +5,7 @@ url: /join/
 
 I am **actively recruiting Ph.D. students to start in Fall 2027** in the [Curriculum & Instruction Ph.D. program](https://www.uh.edu/education/departments/cuin/) at the University of Houston.
 
-If you care about how science teachers learn, from noticing students' ideas to teaching engineering practices, I'd love to hear from you.
+If you care about how science teachers learn, and about science and engineering learning that connects to real-world problems, I'd love to hear from you.
 
 ## What You Could Work On
 
