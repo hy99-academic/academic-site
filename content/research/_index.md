@@ -14,7 +14,7 @@ Teacher noticing, what teachers attend to, how they interpret it, and how they r
 {{< callout title="My doctoral and ongoing work investigates" >}}
 - What preservice and in-service teachers attend to, and how they interpret events, in science classroom videos
 - How teachers' interpretations of Science and Engineering Practices (SEPs) relate to their own classroom enactment
-- How emotions influence what teachers notice — and what they overlook
+- How emotions influence what teachers notice
 {{< /callout >}}
 
 Across this work, I view noticing not only as a cognitive practice but also as a relational one: what teachers attend to shapes whose contributions are taken up as substantive in the classroom.
