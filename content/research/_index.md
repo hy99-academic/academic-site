@@ -2,7 +2,7 @@
 title: "Research"
 url: /research/
 ---
-## Science Teacher Noticing of Reform-Based Instructional Practices
+## Science Teacher Noticing
 
 Teacher noticing, what teachers attend to, how they interpret it, and how they respond, is a core dimension of teaching expertise. Yet the noticing of *science-specific* practices remains underexplored, particularly for teachers working within reform-based curriculum such as the NGSS.
 
@@ -20,11 +20,15 @@ Across this work, I view noticing not only as a cognitive practice but also as a
 - **Huang, Y.**, Luft, J. A., Tran, H. H., DeLuca, J. J., Pavez, J., & Whitworth, B. (2025). Exploring the attending and interpretation of three science and engineering practices among secondary science teachers. *International Journal of Science and Mathematics Education.* https://doi.org/10.1007/s10763-025-10548-9
 - Luft, J. A., **Huang, Y.**, Singh, H., Ozen-Tasdemir, H., DeLuca, J., Watson, S., Ayano, E., & Whitworth, B. A. (2024). Exploring the noticing of science teachers: What teachers notice and using video to capture teacher knowledge. *School Science and Mathematics, 124*(3), 159–170.https://doi.org/10.1111/ssm.12623
 
-## Authority in Science Learning Environments
+## Science Teacher Professional Development
 
-I partner with teachers, teacher educators, and community members to co-design science learning experiences rooted in local knowledge and concerns. Drawing on design-based implementation research and community-based participatory research, I study how *authority*， who is recognized as a knowledge contributor, whose ideas are taken up, whose questions reshape the work， is distributed and renegotiated across co-design partnerships: between researchers and teachers, between adults and youth, and between disciplinary and community knowledge.
+Building on my noticing research, I am interested in how professional development can help science teachers learn to notice and build on students' thinking in their own classrooms. I am especially interested in video-based approaches, in which preservice and in-service teachers watch, discuss, and reflect on classroom practice together.
 
-As part of an NSF-funded project at UC Irvine, I examine how high school students take up authority during community interviews, and how that authority reshapes the environmental engineering curriculum we build together.
+## Engineering Practices in Science Classrooms
+
+Under the NGSS, engineering practices are now part of K–12 science. I study how science teachers notice, interpret, and enact science and engineering practices, and how engineering can be taught in ways that connect to students' lives and communities.
+
+As part of an NSF-funded project at UC Irvine, I worked with teachers, high school students, and community members to co-design an environmental engineering curriculum, examining how students' community interviews shaped the curriculum we built together.
 
 **Representative work:**
 
@@ -32,7 +36,7 @@ As part of an NSF-funded project at UC Irvine, I examine how high school student
 
 ## Looking Ahead
 
- Building on both research lines, my next phase of work brings them into direct conversation by seeing *teacher noticing as an authority practice* — examining how what teachers notice (and don't notice) distributes epistemic authority, and how emerging technologies, including AI-supported classroom analytics, reshape this distribution in science learning environments.
+Building on these lines of research, my next phase of work brings them into direct conversation by seeing *teacher noticing as an authority practice* — examining how what teachers notice (and don't notice) distributes epistemic authority, and how emerging technologies, including AI-supported classroom analytics, reshape this distribution in science learning environments.
 
 ## Prospective Ph.D. Students
 

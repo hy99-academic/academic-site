@@ -28,7 +28,7 @@ params:
     role: "Assistant Professor of Science Education"
     affiliation: "University of Houston"
     avatar: "/images/avatar.jpg"
-    tagline: "Research on science teacher noticing and community-based co-design."
+    tagline: "Research on science teacher noticing, professional development, and engineering practices."
 
   # Banner at the top of the homepage. Set show: false to hide it.
   recruiting:
