@@ -3,13 +3,15 @@ title: "Beyond"
 url: /beyond/
 ---
 
-Things I enjoy outside of work.
+Things I enjoy outside of work. *Click any photo to see it larger.*
 
 ## Kendo
 
-I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong journey.
+<p class="chips"><span>🥋 Practicing since 2024</span><span>📍 Georgia → California → Texas</span><span>🐾 Staff supervisor for Cougar Kendo</span></p>
 
-<div class="img-pair">
+I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong journey. I now practice in Houston and also support student kendo at the University of Houston.
+
+<div class="img-pair three">
   <figure>
     <img src="/images/Kendo_001.jpg" alt="Kendo practice">
     <figcaption>At Nanto Bukan East Georgia Kendo Club</figcaption>
@@ -18,11 +20,17 @@ I started practicing Kendo in 2024, and I’d like to pursue it as a lifelong jo
     <img src="/images/Kendo_002.JPG" alt="Kendo practice">
     <figcaption>At Costa Mesa Kendo Dojo</figcaption>
   </figure>
+  <figure>
+    <img src="/images/Kendo_003.jpg" alt="Group photo at Houston Kendo Kyokai">
+    <figcaption>At Houston Kendo Kyokai</figcaption>
+  </figure>
 </div>
 
-## Movie
+## Films
 
-I love watching movies in my spare time. I enjoy spending time at independent movie theaters and attending film festivals.
+<p class="chips"><span>🎬 Independent theaters</span><span>🎟️ Film festivals</span><span>🎤 Director Q&amp;As</span></p>
+
+I love watching films in my spare time. I enjoy spending time at independent movie theaters and attending film festivals.
 
 <div class="img-pair">
   <figure>

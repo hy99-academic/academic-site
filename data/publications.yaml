@@ -1,0 +1,65 @@
+# Publications you add by hand.
+#
+# Most new papers will show up AUTOMATICALLY from your ORCID profile
+# (data/publications_auto.json is updated every Monday — don't edit that file).
+#
+# Add a paper here only if it is NOT on ORCID yet, for example:
+#   - accepted / in press papers that don't have a DOI yet
+#   - conference papers without a DOI
+# A paper listed here always wins over the ORCID version (matched by DOI or title),
+# so you can also use this list to fix how an ORCID paper looks.
+#
+# type: journal, conference, or book (used only to skip non-paper items from ORCID)
+# year: a number like 2026, or text like "in press"
+# authors: put **Huang, Y.** in double stars to make your name bold
+# doi: e.g. "10.1080/13504622.2026.1234567" (shown as a clickable link)
+# url: optional link for papers without a DOI (e.g. the ISLS repository page)
+# source: optional. Write the part after the title yourself (for proceedings,
+#         book chapters, etc.) instead of using venue/volume/issue/pages.
+
+manual:
+  - type: conference
+    authors: "**Huang, Y.**, Gyles, S., Bisht, A., Santagata, R., Kang, H., Ludovise, S., & Long, J."
+    year: 2026
+    title: "Examining youth authority in community member interviews during the co-design of an environmental engineering curriculum"
+    doi: "10.22318/icls2026.330057"
+    source: "In B. K. Litts, D. DeLiema, C. Lee, S. Krist, A. Mawasi, L. Martin, & K. Kumpulainen (Eds.), *Proceedings of the 20th International Conference of the Learning Sciences - ICLS 2026* (pp. 454–463). International Society of the Learning Sciences."
+
+  - type: journal
+    authors: "Adah Miller, E., **Huang, Y.**, Tran, H., & Lahiri, S."
+    year: 2026
+    title: "From and for the sake of place: Elementary teachers co-designing place-based education climate change curriculum in research-practice partnership"
+    venue: "Environmental Education Research"
+    doi: "10.1080/13504622.2026.2729679"
+    note: "[All Authors contribute to this paper equally]"
+
+  - type: journal
+    authors: "Sezen-Barrie, A., & **Huang, Y.**"
+    year: 2026
+    title: "Youth storytelling in climate change education: A systematic review of research designs, pedagogical scaffolding, and digital tools (2014–2024)"
+    venue: "Environmental Education Research"
+    pages: "1–37"
+    doi: "10.1080/13504622.2026.2671436"
+
+  - type: journal
+    authors: "**Huang, Y.**, Luft, J. A., Tran, H. H., DeLuca, J. J., Pavez, J., & Whitworth, B. A."
+    year: 2025
+    title: "Exploring the attending and interpretation of three science and engineering practices among secondary science teachers"
+    venue: "International Journal of Science and Mathematics Education"
+    volume: "23"
+    issue: "7"
+    pages: "2811–2836"
+    doi: "10.1007/s10763-025-10548-9"
+
+  - type: journal
+    authors: "Luft, J. A., **Huang, Y.**, Singh, H., Ozen-Tasdemir, H., DeLuca, J., Watson, S., Ayano, E., & Whitworth, B. A."
+    year: 2024
+    title: "Exploring the noticing of science teachers: What teachers notice and using video to capture teacher knowledge"
+    venue: "School Science and Mathematics"
+    volume: "124"
+    issue: "3"
+    pages: "159–170"
+    doi: "10.1111/ssm.12623"
+
+# Papers from ORCID you DON'T want on the website. List a DOI or the exact title.
+hide: []

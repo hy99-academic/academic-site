@@ -1,0 +1,20 @@
+{{- /* Click a photo inside .img-pair to see it larger. */ -}}
+<dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+    <img src="" alt="">
+    <p class="lightbox-caption"></p>
+</dialog>
+<script>
+document.addEventListener('click', function (e) {
+    var box = document.getElementById('lightbox');
+    var img = e.target.closest('.img-pair img');
+    if (img) {
+        var caption = img.closest('figure') && img.closest('figure').querySelector('figcaption');
+        box.querySelector('img').src = img.src;
+        box.querySelector('img').alt = img.alt;
+        box.querySelector('.lightbox-caption').textContent = caption ? caption.textContent : '';
+        box.showModal();
+    } else if (e.target.closest('#lightbox')) {
+        box.close();
+    }
+});
+</script>

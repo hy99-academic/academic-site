@@ -1,6 +1,13 @@
 {{- define "main" }}
 
 <article class="post-single">
+    {{- with site.Params.recruiting }}{{ if .show }}
+    <a class="recruit-banner" href="{{ .link | absURL }}">
+        <span class="recruit-badge">Join us</span>
+        <span class="recruit-text">{{ .text }}</span>
+        <span class="recruit-link">{{ .linkText }}</span>
+    </a>
+    {{- end }}{{ end }}
     <header class="post-header">
         <h1 class="post-title">{{ .Title }}</h1>
     </header>

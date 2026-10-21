@@ -1,0 +1,13 @@
+# Research cards shown on the homepage and the Prospective Students page.
+# "icon" can be: eye, people, spark, growth, gear
+# "link" points to a section on the Research page.
+
+- title: "Teacher Noticing of Science & Engineering Practices"
+  icon: eye
+  summary: "What do science teachers notice when students argue from evidence, build models, or design solutions, and how does that noticing shape their teaching?"
+  link: "/research/#science-teacher-noticing-of-science-and-engineering-practices"
+
+- title: "Co-Designing Science & Engineering Learning"
+  icon: people
+  summary: "Working with teachers, youth, and communities to design science and engineering learning around real-world problems like hurricanes."
+  link: "/research/#co-designing-science-and-engineering-learning-for-real-world-problems"

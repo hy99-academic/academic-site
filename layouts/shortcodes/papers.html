@@ -1,0 +1,18 @@
+{{- /*
+  Paper cards for papers listed in data/publications.yaml, picked by DOI.
+  Usage: {{< papers "10.1111/ssm.12623" "10.1007/s10763-025-10548-9" >}}
+*/ -}}
+<p class="papers-label">Representative work</p>
+<div class="paper-cards">
+  {{- range .Params }}
+  {{- $doi := lower . }}
+  {{- range where site.Data.publications.manual "doi" $doi }}
+  <a class="paper-card" href="https://doi.org/{{ .doi }}" target="_blank" rel="noopener">
+    <span class="paper-meta">{{ cond (eq .type "conference") "ICLS" (.venue | default "") }} · {{ .year }}</span>
+    <span class="paper-title">{{ .title }}</span>
+    <span class="paper-authors">{{ .authors | markdownify }}</span>
+    <span class="paper-link">Read paper →</span>
+  </a>
+  {{- end }}
+  {{- end }}
+</div>

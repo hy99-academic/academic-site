@@ -28,7 +28,14 @@ params:
     role: "Assistant Professor of Science Education"
     affiliation: "University of Houston"
     avatar: "/images/avatar.jpg"
-    tagline: "Research on science teacher noticing and community-based co-design."
+    tagline: "Research on science teacher noticing and co-designing science and engineering learning for real-world problems."
+
+  # Banner at the top of the homepage. Set show: false to hide it.
+  recruiting:
+    show: true
+    text: "Now recruiting Ph.D. students for Fall 2027"
+    link: "/join/"
+    linkText: "Learn more →"
 
   socialIcons:
     - name: email
@@ -50,12 +57,14 @@ menu:
     - name: Research
       url: /research/
       weight: 2
-    - name: Publications
-      url: /publications/
-      weight: 3
+    - name: Prospective Students
+      url: /join/
+      weight: 4
+      params:
+        highlight: true
     - name: Beyond
       url: /beyond/
-      weight: 4
+      weight: 5
 
 markup:
   goldmark:
