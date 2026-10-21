@@ -21,6 +21,16 @@ Across this work, I view noticing not only as a cognitive practice but also as a
 
 I am also interested in how professional development, including video-based approaches, can help preservice and in-service teachers learn to notice and build on students' thinking.
 
+<div class="project-cards">
+  <div class="project-card">
+    <div class="project-head">
+      <span class="project-tag">NSF-funded · UGA</span>
+      <span class="project-pi">PI: Julie Luft</span>
+    </div>
+    <p>Examined what secondary science teachers notice in classroom videos, and how they interpret science and engineering practices.</p>
+  </div>
+</div>
+
 {{< papers "10.1007/s10763-025-10548-9" "10.1111/ssm.12623" >}}
 
 ## Co-Designing Science and Engineering Learning for Real-World Problems
@@ -29,15 +39,23 @@ I partner with teachers, youth, and community members to design science and engi
 
 <div class="project-cards">
   <div class="project-card">
-    <span class="project-tag">NSF-funded · UC Irvine</span>
+    <div class="project-head">
+      <span class="project-tag">NSF-funded · UC Irvine</span>
+      <span class="project-pi">PI: Rossella Santagata</span>
+    </div>
     <p>Teachers, high school students, and community members co-designed an environmental engineering curriculum, and students' community interviews shaped the curriculum we built together.</p>
   </div>
   <div class="project-card">
-    <span class="project-tag">Research-practice partnership</span>
-    <p>Elementary teachers co-designed place-based science curriculum.</p>
+    <div class="project-head">
+      <span class="project-tag">NASEM-funded · UGA</span>
+      <span class="project-pi">PI: Emily Adah Miller</span>
+    </div>
+    <p>In a research-practice partnership, elementary teachers co-designed place-based science curriculum.</p>
   </div>
   <div class="project-card">
-    <span class="project-tag">Systematic review</span>
+    <div class="project-head">
+      <span class="project-tag">Systematic review</span>
+    </div>
     <p>Youth storytelling and digital tools in environmental education.</p>
   </div>
 </div>
