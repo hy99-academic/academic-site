@@ -13,6 +13,8 @@ If you care about how science teachers learn, and about science and engineering 
 
 More details and all of my papers are on the [Research](/research/) page.
 
+My research is primarily **qualitative**, and I also use **mixed methods**, so students interested in either approach would be a good fit.
+
 ## Who I'm Looking For
 
 I look for students who:
