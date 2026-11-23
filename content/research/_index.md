@@ -8,6 +8,10 @@ I study how science teachers notice and teach science and engineering practices,
 
 {{< research-map >}}
 
+{{< callout title="How I do research" >}}
+My research is primarily **qualitative**. Much of my work draws on classroom video and interviews, and my co-design work uses design-based and community-based participatory approaches. I also use **mixed methods** when a question calls for both qualitative and quantitative evidence.
+{{< /callout >}}
+
 ## Science Teacher Noticing of Science and Engineering Practices
 
 Teacher noticing, what teachers attend to, how they interpret it, and how they respond, is a core dimension of teaching expertise. Yet the noticing of *science-specific* practices remains underexplored, particularly for teachers working within reform-based curriculum such as the NGSS.
